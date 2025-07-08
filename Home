@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vortex Disaster Consulting, LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0f2f, #1a1a40);
+      color: white;
+    }
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 300px;
+      max-width: 90%;
+    }
+    nav {
+      background-color: #141448;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #62a0ff;
+    }
+    footer {
+      background-color: #0f0f2f;
+      color: #999;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea, select, button {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: none;
+    }
+    input, textarea, select {
+      background-color: #f0f0f0;
+      color: #000;
+    }
+    button {
+      background-color: #62a0ff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #3b7dd8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder.png" alt="Vortex Disaster Consulting Logo" />
+  </header>
+
+  <nav>
+    <a href="#planning">Disaster Planning</a>
+    <a href="#exercises">Exercise Development</a>
+    <a href="#events">Event Planning</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="planning">
+    <h2>Disaster Planning</h2>
+    <p>
+      Vortex Disaster Consulting, LLC specializes in comprehensive disaster planning
+      for municipalities, private industry, and nonprofit organizations. From hazard assessments
+      to emergency operation plans, we provide the framework and guidance to help communities and organizations prepare for the unexpected.
+    </p>
+  </section>
+
+  <section id="exercises">
+    <h2>Exercise Development</h2>
+    <p>
+      Our team designs and facilitates realistic and scalable exercises to test preparedness plans.
+      Whether it's a tabletop, functional, or full-scale exercise, Vortex ensures that all participants are
+      trained and equipped to meet the challenge of real-world emergencies.
+    </p>
+  </section>
+
+  <section id="events">
+    <h2>Event Planning</h2>
+    <p>
+      From public safety events to training conferences and community outreach, we provide logistics
+      support, coordination, and execution of impactful and efficient events. Our detail-oriented planning
+      ensures success from start to finish.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Eric Kunzman</strong><br>
+       Owner / Consultant<br>
+       Phone: +1 (850) 321-0926<br>
+       Email: <a href="mailto:vortexdcllc@gmail.com" style="color: #62a0ff;">Vortexdcllc@gmail.com</a>
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder.png" alt="Business Card" style="max-width: 300px; margin-top: 20px;" />
+
+    <h3 style="margin-top: 40px; color: #62a0ff;">Request Our Services</h3>
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required />
+      <input type="email" name="email" placeholder="Your Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" />
+      <select name="service" required>
+        <option value="">Select a Service</option>
+        <option value="disaster_planning">Disaster Planning</option>
+        <option value="exercise_development">Exercise Development</option>
+        <option value="event_planning">Event Planning</option>
+        <option value="other">Other</option>
+      </select>
+      <textarea name="message" rows="5" placeholder="Tell us more about your needs..." required></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Vortex Disaster Consulting, LLC. All rights reserved.
+  </footer>
+</body>
+</html>
